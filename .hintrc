@@ -7,8 +7,15 @@
       "default",
       {
         "button-name": "off",
-        "link-name": "off"
+        "link-name": "on"
       }
-    ]
+    ],
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "on"
+      }
+    ],
+    "no-inline-styles": "off"
   }
 }
