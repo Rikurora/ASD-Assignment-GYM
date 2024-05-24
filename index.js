@@ -1,6 +1,6 @@
 var formdata = new FormData();
 formdata.append("type", "Horizontal Strip");
-formdata.append("tags", "gym");
+formdata.append("tags", "");
 
 var ajax = new XMLHttpRequest();
 ajax.addEventListener("load", completeHandler, false);
@@ -17,6 +17,6 @@ function completeHandler(event) {
     document.querySelector('.advertIMG').src = response.link;
     document.querySelector('.advertIMG').alt = response.alt;
     document.querySelector('.anchorElement').href = response.href;
-    document.querySelector('.headerText').innerHTML = response.message;
+
 }
-                                 
+                               
